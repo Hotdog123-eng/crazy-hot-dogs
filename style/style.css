@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+nav{
+    border: 1px solid black;
+    background-color: black;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    list-style: none;
+    text-align: center;
+    display: inline;
+    padding: 15px;
+    margin: 5%;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+nav ul li:hover{
+    background:orange;
+}
+
+section {
+    height: 100vh;
+}
+
+.front {
+    height: 50vh;
+}
+
+.front h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+.front h1 span {
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.front h1 span:nth-child(1):hover, .front h1 span:nth-child(2):hover, .front h1 span:nth-child(3):hover, .front h1 span:nth-child(4):hover {
+    color: white;
+}
+
+ 
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    width: 20%;
+    height: 100%;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+
+.index-content {
+    background-color: white !important;
+    padding: 5%;
+}
+
+.pop-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.pop-card-1, .pop-card-2 {
+    /* border: 1px solid black; */
+    height: 50%;
+    margin: 2%;
+    padding: 3%;
+    text-transform: uppercase;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+.pop-card-1 {
+    height: 44%;
+}
+
+.pop-card-2 {
+    padding: 0;
+}
+
+.child-pop-card-1, .child-pop-card-2 {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 5%;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+.child-pop-card-2 {
+    padding: 4%;
+}
+
+.child-pop-card-1 {
+    margin-bottom: 2%;
+}
+
+.pop-card-1 h1 {
+    font-size: 2.7rem !important;
+}
+
+.pop-card-1 h1 span {
+    font-size: 3.5rem !important;
+}
+
+.index-content h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
+
+.index-content h1 span {
+    font-size: 2.9rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pop-card-1, .child-pop-card-1, .child-pop-card-2 {
+    backdrop-filter: blur(50px);
+}
