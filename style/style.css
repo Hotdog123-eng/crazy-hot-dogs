@@ -150,3 +150,53 @@ section {
 .pop-card-1, .child-pop-card-1, .child-pop-card-2 {
     backdrop-filter: blur(50px);
 }
+
+.form-newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2.5%;
+    padding-top: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    padding-right: 8%;
+    background: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg)no-repeat center center/cover;
+    box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+
+form label, form input {
+    margin: 10px 0;
+    width: 100%;
+}
+
+form label{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+form input {
+    padding: 10px 15px;
+}
+
+.register {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+}
+
+.submit-btn-center{
+    width: 100%;
+    padding: 5%;
+}
+
+form h1{
+    margin-top: 0;
+    color: whitesmoke;
+    font-size: 5rem;
+    text-align: center;
+}
